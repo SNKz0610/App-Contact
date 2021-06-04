@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SendEmailActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="To: "
+        android:textSize="23dp"
+        android:textColor="#AEFF58"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+    
+    <EditText
+        android:id="@+id/edt_emailaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:clickable="false"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Subject: "
+        android:textSize="23dp"
+        android:textColor="#AEFF58"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+    <EditText
+        android:id="@+id/edt_object"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailSubject"
+        android:textSize="20dp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Message: "
+        android:textSize="23dp"
+        android:textColor="#AEFF58"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+    <EditText
+        android:id="@+id/edt_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="10"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:gravity="start|top"/>
+    
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_marginTop="30dp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#42C1FF"
+        android:textColor="#000000"
+        android:text="send"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

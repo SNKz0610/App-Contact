@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".activity.RegisterActivity">
+
+        <ImageButton
+            android:id="@+id/btn_backtologin"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_back"
+            android:layout_marginLeft="10dp"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_avatarregister"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+
+            app:civ_border_color="#FF2D28"
+            app:civ_border_width="2dp" />
+
+        <Button
+            android:id="@+id/btn_uploadphotoregister"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#00BCD4"
+            android:text="📸 Upload 📸"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/edt_usernameregister"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/cus_edt"
+            android:drawableStart="@drawable/ic_baseline_account_circle_24"
+            android:hint="   Enter username ✍"
+            android:paddingLeft="20dp"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edt_passwordregister"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/cus_edt"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:hint="   Enter password 👀"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edt_nameregister"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/cus_edt"
+            android:drawableStart="@drawable/ic_baseline_person_24"
+            android:hint="   Enter your name 🙆‍"
+            android:paddingLeft="20dp"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edt_birthdayregister"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/cus_edt"
+            android:drawableStart="@drawable/ic_baseline_calendar_today_24"
+            android:hint="   Enter your birthday 🏢‍"
+            android:paddingLeft="20dp"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edt_phoneregister"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/cus_edt"
+            android:drawableStart="@drawable/ic_baseline_phone_24"
+            android:hint="   Enter your phone ☎"
+            android:inputType="phone"
+            android:paddingLeft="20dp"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edt_emailregister"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/cus_edt"
+            android:drawableStart="@drawable/ic_baseline_mail_24"
+            android:hint="   Enter your email 💌"
+            android:paddingLeft="20dp"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edt_addressregister"
+            android:layout_width="320dp"
+            android:layout_height="47dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/cus_edt"
+            android:drawableStart="@drawable/ic_baseline_home_24"
+            android:hint="   Enter your address 🏡"
+            android:paddingLeft="20dp"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btn_signup"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#B5FD61"
+            android:text="Sign up"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="30dp"/>
+
+    </LinearLayout>
+</ScrollView>

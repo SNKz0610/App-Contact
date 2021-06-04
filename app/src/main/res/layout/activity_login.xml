@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LoginActivity"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="💌 CONTACT 💌"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#CDDC39"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:src="@drawable/logologin"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp" />
+
+    <EditText
+        android:id="@+id/edt_username"
+        android:layout_marginTop="40dp"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:background="@drawable/cus_edt"
+        android:layout_gravity="center"
+        android:hint="   Enter username ✍"
+        android:drawableStart="@drawable/ic_baseline_account_circle_24"
+        android:paddingLeft="20dp"/>
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/cus_edt"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:hint="   Enter password 👀"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_marginTop="30dp"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/teal_700"
+        android:layout_gravity="center"
+        android:text="Sign in"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/tv_signup"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Dont have an account? Try to sign up 🚀"
+        android:textColor="#8BC34A"
+        android:textSize="16dp"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:clickable="true"/>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@Author:💌 SNKz 😎 "
+        android:textColor="#FFFFFF"
+        android:textSize="10dp"
+        android:textStyle="italic"
+        android:gravity="center" />
+</LinearLayout>
